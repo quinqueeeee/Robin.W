@@ -1,0 +1,21 @@
+.page__phlisophy {
+	background: var(--peach-accent);
+	height: 600px;
+}
+.phlisophy__header {
+	grid-column: 6 span;
+}
+.phlisophy__header-text {
+	max-width: 576px;
+}
+.phlisophy__container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+.phlisophy__img {
+	grid-column: 6 span;
+	img {
+		width: 720px;
+		height: 600px;
+	}
+}

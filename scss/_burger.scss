@@ -1,0 +1,45 @@
+.header__burger {
+	display: none;
+	position: relative;
+	width: 24px;
+	height: 24px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	z-index: 2;
+	cursor: pointer;
+
+	@media (max-width: 600px) {}
+}
+
+.header__burger span {
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 3px;
+	left: 5px;
+	background: #c4c4c4;
+	transition: background-color .3s, opacity .3s, transform .5s;
+	will-change: transform;
+}
+
+.header__burger:hover span {
+	background: #c4c4c4;
+}
+
+.header__burger span:nth-child(1) {
+	transform: translateY(-10px);
+	width: 24px;
+	height: 3px;
+
+}
+
+.header__burger span:nth-child(2) {
+	width: 14px;
+	height: 3px;
+	margin-left: 10px;
+}
+
+// .header__burger span:nth-child(3) {
+// 	transform: translateY(10px);
+// }

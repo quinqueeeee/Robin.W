@@ -1,0 +1,53 @@
+.page__photography {
+	padding: 7.5rem 0;
+}
+
+.photography__header {
+	
+	padding-bottom: 4rem;
+}
+
+.photography__header-title {
+	font-weight: 700;
+	font-size: 3.4375rem;
+	color: var(--white);
+}
+
+.photography__header-text {
+	font-size: 1.125rem;
+	line-height: 150%;
+	color: var(--light-grey);
+	max-width: 36.75rem;
+	padding-bottom: 0;
+}
+
+
+.photography__list {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	padding-bottom: 2.5rem;
+}
+
+.photography__btn {
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 150%;
+	text-transform: uppercase;
+
+	padding: 0.75rem 1rem;
+	border: 0.125rem solid var(--purple);
+}
+
+.phatography__btn-1 {
+	background: var(--purple);
+}
+
+
+.photography__cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1.5rem;
+}
+
+.photography__card {}

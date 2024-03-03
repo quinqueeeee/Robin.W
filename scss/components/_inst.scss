@@ -1,0 +1,30 @@
+.inst__btn {
+	width: 110px;
+}
+
+.page__inst {
+	background: var(--violet-accent);
+	height: 600px;
+}
+
+.inst__header {
+	grid-column: 6 span;
+}
+
+.inst__header-text {
+	max-width: 576px;
+}
+
+.inst__container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.inst__img {
+	grid-column: 6 span;
+
+	img {
+		width: 100%;
+		height: 600px;
+	}
+}

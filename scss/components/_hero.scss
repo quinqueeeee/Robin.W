@@ -1,0 +1,39 @@
+.page__hero {
+	display: grid;
+	display: flex;
+	padding: 5rem 0;
+	background-color: var(--black);
+}
+
+.hero__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero__content {
+	max-width: 46.125rem;
+	position: relative;
+	z-index: 2;
+	left: -88px;
+}
+
+.hero__img .hero__content {
+	grid-column: 7 span;
+}
+
+.hero__title {
+	padding-bottom: 32px;
+
+	span {
+		color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+.hero__img {
+	img {
+		width: 46.875rem;
+		height: 40.625rem;
+	}
+}

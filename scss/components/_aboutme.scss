@@ -1,0 +1,95 @@
+.page__aboutme {
+	background-color: var(--black);
+}
+
+.aboutme__container {
+	padding: 7.5rem 2.5rem;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 1.25rem;
+}
+
+.aboutme__header {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	grid-column: 6 span;
+}
+
+.aboutme__content {
+	max-width: 36.75rem;
+}
+
+.aboutme__header-title {
+	font-weight: 700;
+	font-size: 3.4375rem;
+	color: var(--white);
+}
+
+.aboutme__header-text {
+	padding-bottom: 2.5rem;
+	font-size: 1.125rem;
+	line-height: 150%;
+	color: var(--light-grey);
+}
+
+.aboutme__btn {
+	width: 9.0625rem;
+	font-size: 1rem;
+	line-height: 150%;
+	color: var(--white);
+}
+
+
+
+
+
+
+.aboutme__cards {
+	grid-column: 6 span;
+}
+
+.aboutme__card {
+
+	&:not(:last-child) {
+		padding-bottom: 7.5rem;
+	}
+}
+
+.aboutme__card-img {
+	width: 100%;
+	object-fit: cover;
+	height: 22.5rem;
+}
+
+.aboutme__card-content {
+	padding: 4rem;
+	border-top: 0;
+	border: 0.0625rem solid var(--dark-grey);
+	border-radius: 1.25rem;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.aboutme__card-title {
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 150%;
+
+	max-width: 31.75rem;
+	padding-bottom: 4rem;
+}
+
+.aboutme__card-content-text {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+
+	p {
+		font-weight: 700;
+		font-size: 1.125rem;
+		line-height: 150%;
+		color: var(--dark-grey);
+	}
+}

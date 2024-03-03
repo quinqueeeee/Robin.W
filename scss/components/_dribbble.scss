@@ -1,0 +1,36 @@
+.page__dribbble {
+	padding: 7.5rem 0rem;
+	background-color: var(--black);
+}
+
+.dribble__container {
+	padding: 0 6.875rem;
+}
+
+.dribbble__header {
+	padding-bottom: 7.5rem;
+}
+
+.dribbble__header-text {
+	padding-bottom: 2.5rem;
+	max-width: 39.75rem;
+}
+
+.dribbble__btn {
+	width: 142px;
+	font-size: 1rem;
+	line-height: 150%;
+	color: var(--white);
+}
+
+.dribbble__header-title {
+	font-weight: 700;
+	font-size: 3.4375rem;
+	color: var(--white);
+}
+
+.dribbble__header-text {
+	font-size: 1.125rem;
+	line-height: 150%;
+	color: var(--light-grey);
+}

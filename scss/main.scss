@@ -1,0 +1,23 @@
+// базовые подключения
+@import "vars";
+@import "fonts";
+@import "base";
+@import "nullstyle";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/nav";
+@import "./burger";
+@import "./components/hero";
+@import "./components/work";
+@import "./components/phlisophy";
+@import "./components/skillset";
+@import "./components/logotype";
+@import "./components/projects";
+@import "./components/inst";
+@import "./components/dribbble";
+@import "./components/aboutme";
+@import "./components/photography";
+@import "./components/forms";
+@import "./components/footer";
+@import "./components/adaptive";

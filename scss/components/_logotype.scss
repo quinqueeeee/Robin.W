@@ -1,0 +1,37 @@
+.page__logotype {
+	background-color: var(--black);
+}
+.logotype__list {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+.logotype__item {
+	grid-column: 3 span;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--level-1);
+}
+.logotype__link {
+	padding: 3.125rem 7.9375rem;
+}
+.logotype__img1 {
+	width: 5.3125rem;
+	height: 1.3125rem;
+	max-width: initial;
+}
+.logotype__img2 {
+	width: 4.375rem;
+	height: 1.8125rem;
+	max-width: initial;
+}
+.logotype__img3 {
+	width: 1.75rem;
+	height: 1.75rem;
+	max-width: initial;
+}
+.logotype__img4 {
+	width: 1.25rem;
+	height: 1.25rem;
+	max-width: initial;
+}

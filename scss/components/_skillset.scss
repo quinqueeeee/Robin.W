@@ -1,0 +1,48 @@
+.page__skillset {
+	background-color: var(--black);
+}
+.skillset__header {
+	display: flex;
+	flex-direction: column;
+	align-items: initial;
+	justify-content: initial;
+}
+.skillset__header-title {
+	color: var(--white);
+}
+.skillset__header-text {
+	color: var(--light-grey);
+	max-width: 23rem;
+}
+.skillset__cards {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 3rem;
+}
+.skillset__content {
+	padding: 7.5rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+.skillset__card-img {
+	padding-bottom: 1.5rem;
+	img {
+		width: 2rem;
+		height: 2rem;
+	}
+}
+.skillset__card-title {
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 150%;
+	color: var(--white);
+	padding-bottom: 0.75rem;
+}
+.skillset__card-text {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 150%;
+	color: var(--light-grey);
+	max-width: 23rem;
+}

@@ -1,0 +1,24 @@
+.nav {
+	padding: 2rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__logo {
+	img {
+		width: 79px;
+		height: 24px;
+	}
+}
+
+.nav__list {
+	display: flex;
+	gap: 3rem;
+	align-items: center;
+}
+
+.nav__btn {
+	padding: 0.9375rem 1.5rem;
+	border-radius: 1.25rem;
+	background-color: var(--purple);
+}
